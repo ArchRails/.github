@@ -61,9 +61,9 @@ ArchRails does **not** replace human reviewers—it removes repetitive architect
 
 ## Example Feedback
 
-- ❌ ViewModel contains navigation logic (violates MVVM constraint)
-- ⚠️ Domain module depends on UI module (boundary violation)
-- ✅ Correct use of state holder aligned with gold-standard PR
+- **ViewModel** contains navigation logic (violates MVVM constraint)
+- **Domain** module depends on UI module (boundary violation)
+- **Correct** use of state holder aligned with gold-standard PR
 
 Each comment includes context from your docs or reference PRs.
 
