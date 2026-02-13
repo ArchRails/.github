@@ -97,3 +97,11 @@ Early adopters are helping shape:
 
 **Enforce your architecture.  
 At pull request time.**
+
+## Early Access / Provisioning
+
+ArchRails is under active development and currently provisioned manually.
+
+If you’d like to pilot ArchRails with your team or discuss enterprise use cases, reach out directly:
+
+📧 **mdr356@nyu.edu**
