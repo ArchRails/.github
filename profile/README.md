@@ -104,4 +104,4 @@ ArchRails is under active development and currently provisioned manually.
 
 If you’d like to pilot ArchRails with your team or discuss enterprise use cases, reach out directly:
 
-📧 **mdr356@nyu.edu**
+📧 **hello@archrails.io**
