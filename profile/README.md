@@ -136,7 +136,7 @@ Feedback cites the exact CALM node ID, relationship ID, or interface that trigge
 Reviews resolve only the CALM nodes touched by the PR diff. Less noise, fewer false positives, no cross-service contamination.
 
 ### Least-privilege by default
-GitHub App permissions are scoped to PR comment write access only. Your source code is never copied or stored.
+GitHub App permissions are scoped to PR comment write access and read access for PR Diff. Your source code is never copied or stored.
 
 ---
 
