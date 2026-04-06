@@ -69,35 +69,8 @@ Add `calm.json` to your repo describing nodes, relationships, and interface cont
 }
 ```
 
-### 3. Add the config mapping
-
-Commit `.archrails/config.yaml` to map source paths to CALM node IDs. ArchRails scopes each review to the exact nodes touched by the diff.
-
-```yaml
-version: 1
-default_architecture: layered-services
-
-governance:
-  provider: calm
-  file: docs/architecture/calm.json
-
-mapping:
-  - path: src/ApiGateway
-    node: service-api-gateway
-  - path: src/OrderService
-    node: service-order
-  - path: src/PaymentService
-    node: service-payment
-  - path: src/OrderDatabase
-    node: db-orders
-
-review:
-  on: pull_request
-
-integrations:
-  github:
-    app: archrails
-```
+### 3. We Scan your repository
+We scan your repository to bind node to code.
 
 ### 4. Get CALM-backed PR feedback
 
